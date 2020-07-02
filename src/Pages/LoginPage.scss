@@ -1,63 +1,62 @@
-.Background {
-  background-image: linear-gradient(120deg, #3498db, #8e44ad);
-}
+@import "../Styles/GlobalStyle.scss";
 
-.LoginBox {
-  width: 20vw;
-  height: 20vh;
-}
-
-.LoginItem {
-  margin: 10px;
+.LoginScreen {
+  @extend .Screen;
+  @include apply-flexlayout(center, center, column);
+  background: url(../img/slide2.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .LoginForm {
-  width: 360px;
-  height: 580px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #f1f1f1;
+  @include apply-flexlayout(center, center, column);
+  width: 80%;
+  max-width: 360px;
+  height: 60%;
+  max-height: 580px;
   padding: 60px 30px;
   border-radius: 10px;
-}
+  background: #f1f1f1;
+  @extend .DropShadow;
+  @extend .Lifted;
 
-.LoginButton {
-  display: block;
-  width: 100%;
-  height: 50px;
-  border: none;
-  background: linear-gradient(120deg, #3498db, #8e44ad);
-  background-size: 200%;
-  color: #fff;
-  outline: none;
-  cursor: pointer;
-  transition: 0.5s;
-}
+  h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: $roboto;
+  }
 
-.LoginForm h1 {
-  text-align: center;
-  margin-bottom: 60px;
-}
+  .LoginInput {
+    border-bottom: 2px solid #adadad;
+    width: 100%;
+    position: relative;
+    @include margin-vertical(5px);
 
-.LoginButton:hover {
-  background-position: right;
-}
+    input {
+      font-size: 15px;
+      font-family: $yellowtail;
+      color: #333;
+      border: none;
+      width: 100%;
+      outline: none;
+      background: none;
+      height: 40px;
+    }
+  }
 
-.TextBox {
-  border-bottom: 2px solid #adadad;
-  width: 100%;
-  position: relative;
-  margin: 5px 0;
-}
+  .LoginButton {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-family: $roboto;
+    background-image: linear-gradient(120deg, #414943, #2a2d2a);
+    background-size: 200%;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
 
-.TextBox input {
-  font-size: 15px;
-  color: #333;
-  border: none;
-  width: 100%;
-  outline: none;
-  background: none;
-  height: 40px;
+    &:hover {
+      background-position: right;
+    }
+  }
 }
