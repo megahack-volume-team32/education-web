@@ -1,0 +1,10 @@
+@import "../../Styles/GlobalStyle.scss";
+
+.DashboardScreen {
+  @extend .Screen;
+  background-color: #222;
+
+  .Content {
+    color: white;
+  }
+}

@@ -1,9 +1,9 @@
-@import "../Styles/GlobalStyle.scss";
+@import "../../Styles/GlobalStyle.scss";
 
 .LoginScreen {
   @extend .Screen;
   @include apply-flexlayout(center, center, column);
-  background: url(../img/slide2.jpg) no-repeat center center fixed;
+  background: url(../../img/slide2.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -16,8 +16,7 @@
   padding: 60px 30px;
   border-radius: 10px;
   background: #f1f1f1;
-  @extend .DropShadow;
-  @extend .Lifted;
+  @extend .LiftedDropShadow;
 
   h1 {
     text-align: center;

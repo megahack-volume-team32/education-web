@@ -68,7 +68,8 @@ $yellowtail: "YellowTail", cursive;
   z-index: -2;
 }
 
-.Lifted {
+.LiftedDropShadow {
+  @extend .DropShadow;
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
