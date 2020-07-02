@@ -1,5 +1,5 @@
 import React from "react";
-import "./LoginPage.css";
+import "./LoginPage.scss";
 import "./GlobalStyles.css";
 
 import { Button, Card, Form } from "react-bootstrap";
