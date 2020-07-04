@@ -12,7 +12,7 @@ function NavBar(props) {
     <div className="Header">
       <div className="Container">
         <div className="Navbar">
-          <div className="Logo">
+          <div className="Logo" id={props.id}>
             <h1>{props.title}</h1>
           </div>
 
