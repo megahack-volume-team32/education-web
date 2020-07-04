@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
 /* Device Settings */
 $full-device-width: 100vw;
@@ -8,6 +9,7 @@ $full-device-height: 100vh;
 /* Fonts */
 $roboto: "Roboto", Verdana;
 $yellowtail: "YellowTail", cursive;
+$inconsolata: "Inconsolata", Verdana;
 
 /* Reusable Mixins */
 @mixin apply-flexlayout(
