@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Chelsea+Market&family=Poppins:wght@400;800&display=swap');
+.login{
+    background-color: #FFF;
+    width: 40rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  .login-call{
+    text-align: center;
+    margin: 1rem;
+    color: black;
+  }
+  
+  .login-form{
+    margin: 2rem;
+  }
+  .section4{
+    height:  100vh;
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../img/slide3.jpg);
+      background-position: center;
+     background-repeat: no-repeat;
+     background-size:cover;
+    }
+    .button-link{
+        background-color: black;
+        padding: 1rem;
+        color: #FFF;
+
+    }
+    .button-link:hover{
+        background-color: #14213D;
+        text-decoration: none;
+        color: #FFF;
+    }
+    .button-local{
+        margin: 2rem auto 0 ;
+
+    }

@@ -1,0 +1,72 @@
+[
+    {
+      "Setores": "Terminal",
+      "Inativo": 81,
+      "hot dogColor": "hsl(162, 70%, 50%)",
+      "-1 Hora": 94,
+      "burgerColor": "hsl(171, 70%, 50%)",
+      "1-2 Horas": 113,
+      "sandwichColor": "hsl(294, 70%, 50%)",
+      "2-3 Horas": 176,
+      "kebabColor": "hsl(335, 70%, 50%)",
+      "+ 3 Horas": 59,
+      "friesColor": "hsl(350, 70%, 50%)"
+   
+    },
+    {
+      "Setores": "Logistica",
+      "Inativo": 51,
+      "hot dogColor": "hsl(351, 70%, 50%)",
+      "-1 Hora": 33,
+      "burgerColor": "hsl(71, 70%, 50%)",
+      "1-2 Horas": 125,
+      "sandwichColor": "hsl(228, 70%, 50%)",
+      "2-3 Horas": 134,
+      "kebabColor": "hsl(261, 70%, 50%)",
+      "+ 3 Horas": 191,
+      "friesColor": "hsl(70, 70%, 50%)"
+    },
+    {
+      "Setores": "Reboqueiros",
+      "Inativo": 161,
+      "hot dogColor": "hsl(118, 70%, 50%)",
+      "-1 Hora": 104,
+      "burgerColor": "hsl(201, 70%, 50%)",
+      "1-2 Horas": 33,
+      "sandwichColor": "hsl(266, 70%, 50%)",
+      "2-3 Horas": 167,
+      "kebabColor": "hsl(55, 70%, 50%)",
+      "+ 3 Horas": 46,
+      "friesColor": "hsl(38, 70%, 50%)"
+    
+    },
+    {
+      "Setores": "Estaleiros",
+      "Inativo": 88,
+      "hot dogColor": "hsl(276, 70%, 50%)",
+      "-1 Hora": 195,
+      "burgerColor": "hsl(334, 70%, 50%)",
+      "1-2 Horas": 51,
+      "sandwichColor": "hsl(83, 70%, 50%)",
+      "2-3 Horas": 184,
+      "kebabColor": "hsl(343, 70%, 50%)",
+      "+ 3 Horas": 186,
+      "friesColor": "hsl(266, 70%, 50%)"
+     
+    },
+    {
+      "Setores": "Agência",
+      "Inativo": 116,
+      "hot dogColor": "hsl(183, 70%, 50%)",
+      "-1 Hora": 51,
+      "burgerColor": "hsl(255, 70%, 50%)",
+      "1-2 Horas": 13,
+      "sandwichColor": "hsl(298, 70%, 50%)",
+      "2-3 Horas": 126,
+      "kebabColor": "hsl(304, 70%, 50%)",
+      "+ 3 Horas": 169,
+      "friesColor": "hsl(8, 70%, 50%)"
+     
+    }
+   
+  ]

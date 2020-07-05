@@ -1,0 +1,33 @@
+[
+    {
+      "id": "Segurança",
+      "label": "Segurança",
+      "value": 341,
+      "color": "hsl(85, 70%, 50%)"
+    },
+    {
+      "id": "SAP",
+      "label": "SAP",
+      "value": 374,
+      "color": "hsl(191, 70%, 50%)"
+    },
+    {
+      "id": "Operação",
+      "label": "Operação",
+      "value": 171,
+      "color": "hsl(263, 70%, 50%)"
+    },
+    {
+      "id": "Principios da Administração",
+      "label": "ADM",
+      "value": 101,
+      "color": "hsl(109, 70%, 50%)"
+    },
+    {
+      "id": "Treinamento de Reboquerio",
+      "label": "Rebo",
+      "value": 123,
+      "color": "hsl(84, 70%, 50%)"
+    }
+  ]
+  
